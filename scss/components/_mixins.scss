@@ -1,0 +1,11 @@
+
+@mixin btn_styled(){
+    border: none;
+    background-color: $purple;
+    padding: .8rem 1.5rem;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: white;
+}

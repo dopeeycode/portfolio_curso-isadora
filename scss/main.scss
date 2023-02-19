@@ -1,0 +1,39 @@
+//Vars
+
+$purple: #5280e2;
+$green: #15cdcb;
+$bg-dark: #212226;
+$light-grey: #dadada;
+
+@import './components/header';
+@import './components/mixins';
+
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body{
+    background-color: $bg-dark;
+}
+
+body, button, input, select, textarea{
+    color: #fff;
+    font-family: 'Epilogue', sans-serif;
+}
+
+p{
+    color: $light-grey;
+}
+
+h1{
+    font-size: 44px;
+}
+
+h2{
+    font-size: 24px;
+}
+
